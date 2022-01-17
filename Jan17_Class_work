@@ -1,0 +1,36 @@
+<?php
+
+abstract class Pet{
+    abstract function speak();
+}
+
+class Dog extends Pet{
+    function speak(){
+        echo "\r\n \r\n Bark Bark Bark";
+    }
+}
+    $fido = new Dog();
+    $fido->speak();
+
+class Cat extends Pet{
+        function speak(){
+            echo "\r\n  Meow";
+        }
+    }
+        $fifi = new Cat();
+        $fifi->speak();
+
+$CATS = array();
+$DOGS = array();
+
+for ($counter=1; $counter<=10; $counter++){
+    $DOGS[] = new Dog();
+}
+var_dump($DOGS);
+var_dump($CATS);
+
+for ($counter=1; $counter<=10; $counter++){
+    $CATS[] = new Cat();
+}
+
+?>
