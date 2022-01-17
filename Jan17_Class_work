@@ -1,5 +1,13 @@
 <?php
 
+echo "Hello";
+
+?>
+
+//////////////////////////////////////////////////
+
+<?php
+
 abstract class Pet{
     abstract function speak();
 }
