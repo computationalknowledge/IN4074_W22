@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Peter's Page</title>
+    </head>
+
+    <body>
+<ol>
+<li>First we will put STATIC content - hard coded into the HTML</li>
+<li>Next we will setup a database: DYNAMIC Content is obtained from the database</li>
+by a sql pull
+</ol>
+
+    </body> 
+</html>
